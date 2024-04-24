@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(248, 238, 220);
+    text-align: center;
+    width: 900px;
+    height: 1700px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+div.khung{
+    background-color: white;
+    width: 700px;
+    height: 1500px;
+    border-radius: 20px;
+    display: grid;
+    place-items: left;
+    margin: auto;
+}
+
+div.khung2{
+    background-color: cyan;
+    width: 620px;
+    height: 140px;
+    border-radius: 20px;
+    text-align: left;
+    display: grid;
+    margin: 5px auto;
+}
+
+li{
+    padding-left:20px;
+    text-align: left;
+    margin: 10px 40px;
+}
+
+span{
+    font-weight: normal;
+}
+
+h1{
+    text-align: left;
+    margin: -10px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: left;
+    margin: auto 40px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    margin: 5px 40px;
+}
+
+p{
+    text-align: left;
+    margin: 1px 40px;
+}
+
+img{
+    border-radius: 20px;
+    height: 250px;
+    width: 620px; 
+    margin: 40px auto;
+}
+
+.kg{
+    font-weight: bolder;
+    float: right;
+}
+
+*{
+    font-family:sans-serif;
+}
+
+hr{
+    margin: 20px 40px -10px 0;
+}
+
+ul li, ol li{
+    margin-top: -5px;
+}
+
+.name{
+    float: left;
+}
+
+.kg{
+    float: left;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 40px 20px 40px;
+}
+
+td{
+    padding: 5px;
+    text-align: left;
+}
+
+tr{
+    border-bottom: 1px solid #ddd;
+}
+
+tr:last-child{
+    border: none;
+}
+
+
+tr:hover{
+    background-color: rgb(211, 231, 29)
+}
+
+.left{
+    font-weight: bolder;
+}
