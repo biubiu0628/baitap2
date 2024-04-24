@@ -71,32 +71,29 @@
 body{
     background-color: rgb(248, 238, 220);
     text-align: center;
-    width: 900px;
-    height: 1700px;
     display: grid;
     place-items: center;
     margin: auto;
     font-family: 'Outfit';
 }
 
-div.box{
+.box{
     background-color: white;
-    width: 700px;
-    height: 1500px;
+    max-width: 700px;
     border-radius: 20px;
     display: grid;
     place-items: left;
-    margin: auto;
+    margin-block: 4rem;
 }
 
-div.box2{
+.box2{
     background-color: rgb(255, 247, 252);
-    width: 620px;
     height: 140px;
     border-radius: 20px;
     text-align: left;
     display: grid;
-    margin: 5px auto;
+    margin-inline: 2rem;
+    margin-block: 1rem;
 }
 
 li{
@@ -107,7 +104,7 @@ li{
 
 h1{
     text-align: left;
-    margin: -10px 40px;
+    margin: 10px 40px;
     font-family: 'YoungSerif', sans-serif;
 }
 
@@ -132,8 +129,10 @@ p{
 img{
     border-radius: 20px;
     height: 250px;
-    width: 620px; 
-    margin: 40px auto;
+    max-width: 100%;
+    object-fit: cover;
+    margin-inline: auto;
+    margin-block: 40px;
 }
 
 hr{
@@ -182,4 +181,13 @@ li::marker{
 
 span{
     font-weight: 400;
+}
+
+@media screen and (max-width: 900px){
+    .box{
+        margin: 1rem;
+    }
+    img{
+        margin-block: 0;
+    }
 }
