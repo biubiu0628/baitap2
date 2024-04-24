@@ -179,3 +179,7 @@ ol li::marker, ul li::marker{
 li::marker{
     color: rgb(111, 47, 71);
 }
+
+span{
+    font-weight: 400;
+}
